@@ -67,6 +67,22 @@ ed2k://|file|zh-cn_windows_11_business_editions_version_26h1_updated_oct_2026_x6
 
 ---
 
+### 禁止应用联网：
+
+FirewallAppBlocker-v1.9便携版，下载 https://www.sordum.org/8125/firewall-app-blocker-fab-v1-9/ 。
+
+原理：
+
+- 读写Win系统的“Windows 防火墙”程序来实现应用的联网与否，因此在本FirewallAppBlocker软件里面设置完成后可以直接关闭本FirewallAppBlocker软件。
+- 位于底部的“出站规则”、“入站规则”选项就是“Windows 防火墙”程序里面 出、入站规则，完全禁止应用联网需要同时添加 出、入站规则 ，本FirewallAppBlocker软件只是个便携管理的入口。
+- 【Firewall App Blocker.ini】是自动生成的配置文件，新系统里面最好删了，设置好了就不用管。
+
+设置步骤如下：
+
+<img src="./docs/管理应用联网.png" alt="./docs/管理应用联网.png">
+
+---
+
 ### 原创于 2026-10-30： 
 
 https://github.com/datathankyou/Win11_Update_Stopped 
